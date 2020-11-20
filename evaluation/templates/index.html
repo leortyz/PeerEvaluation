@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Peer Evaluation SI2</title>
+  <title>Peer Evaluation</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
@@ -15,15 +15,15 @@
     <div class="row">
       <div class="col-12">
         <h2>
-          Peer Evaluation Software Engineering II
+          Peer Evaluation Software Engineering I
         </h2>
       </div>
     </div>
     <form action="{% url 'cargar_datos' %}" method="get" class="row">
       <div class="col-12 col-xl-6">
-        Ingrese su matrícula
+        Enter your Student ID
         <input type="text" name="matricula" class="form-control">
-        <button type="submit">Buscar</button>
+        <button type="submit">Search</button>
 
       </div>
     </form>
@@ -43,7 +43,7 @@
     <form action="" method="post" class="row">
       {% csrf_token %}
       <div class="col-12">
-        <h4><strong> Califique a sus compañeros</strong></h4>
+        <h4><strong>Rate your peers</strong></h4>
         <input type="hidden" name="eva_id" value="{{est.id}}">
       </div>
       {%for e in estudiantes%}
@@ -60,7 +60,7 @@
       </div>
       {%endfor%}
       <div class="col-12 col-xl-6">
-        <button type="submit">Enviar Calificaciones</button>
+        <button type="submit">Submit Ratings</button>
       </div>
 
     </form>

@@ -22,10 +22,10 @@ def cargar_respuesta(request):
                 eva=Evaluacion(estudiante=estudiante,calificacion=rate)
                 eva.save()
             except:
-                return render(request, 'index.html',{"msj":"Intenta de nuevo"})
+                return render(request, 'index.html',{"msj":"Try again"})
         evaluador.done=True
         evaluador.save()
-        return render(request, 'index.html',{"msj":"Gracias por enviar su evaluación"})
+        return render(request, 'index.html',{"msj":"Thank you for submitting your review."})
         
     else:
         grupos = Group.objects.order_by('nombre')
@@ -37,16 +37,16 @@ def cargar_respuesta(request):
                 stu=Student.objects.get(matricula=matricula)
                 estudiantes = Student.objects.filter(paralelo=stu.paralelo,group_id=stu.group.pk).exclude(pk=stu.pk)
                 if stu.done:
-                    return render(request, 'index.html',{"msj":"Ya has realizado la evaluación"})
+                    return render(request, 'index.html',{"msj":"You have already completed the assessment"})
                 else:
                     return render(request,"index.html",{"estudiantes":estudiantes,"est":stu})
             except:
-                return render(request, 'index.html',{"msj":"Matrícula incorrecta"})
+                return render(request, 'index.html',{"msj":"Wrong Student ID"})
     
-        return render(request, 'index.html',{"msj":"Matrícula incorrecta"})
+        return render(request, 'index.html',{"msj":"Wrong Student ID"})
         
 def resumen_calificaciones_1(request):
-    estudiantes=Student.objects.filter(paralelo=1).order_by('group').values_list('id', 'matricula')
+    estudiantes=Student.objects.filter(paralelo=2).order_by('group').values_list('id', 'matricula')
     estudiantess=[]
     calificacion=[]
     promedio=[]
@@ -62,7 +62,7 @@ def resumen_calificaciones_1(request):
 
 
 def resumen_calificaciones_2(request):
-    estudiantes=Student.objects.filter(paralelo=2).order_by('group').values_list('id', 'matricula')
+    estudiantes=Student.objects.filter(paralelo=3).order_by('group').values_list('id', 'matricula')
     estudiantess=[]
     calificacion=[]
     promedio=[]
