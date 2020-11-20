@@ -20,11 +20,11 @@
       </div>
     </div>
     <form action="{% url 'cargar_datos' %}" method="get" class="row">
-      <div class="col-12 col-xl-6">
-        Enter your Student ID
-        <input type="text" name="matricula" class="form-control">
-        <button type="submit">Search</button>
-
+      <div class="col-9 col-xl-6">        
+        <input type="text" name="matricula" class="form-control" placeholder="Enter your Student ID">
+      </div>
+      <div class="col-3 col-xl-6">
+        <button class="btn btn-dark" type="submit">Search</button>
       </div>
     </form>
     <hr>
@@ -54,13 +54,13 @@
           </div>
           <input type="hidden" name="stu_id" id="{{e.pk}}" value="{{e.pk}}">
           <div class="col-xl-2 col">
-          <input type="number" required max=5 min=1 name="cali" id="{{e.pk}}" class="float-right">
+          <input type="range" required max=5 min=1 name="cali" id="{{e.pk}}" class="form-control-range">
           </div>
         </div>
       </div>
       {%endfor%}
       <div class="col-12 col-xl-6">
-        <button type="submit">Submit Ratings</button>
+        <button class="btn btn-success" type="submit">Submit Ratings</button>
       </div>
 
     </form>

@@ -4,10 +4,10 @@ import pathlib
 
 data={}
 data2=[]
-#csvFilePath='/courses/par2.csv'
-#jsonFilePath='/fixtures/student.json'
-csvFilePath='/courses/par3.csv'
-jsonFilePath='/fixtures/student_2.json'
+csvFilePath='/courses/par2.csv'
+jsonFilePath='/fixtures/student.json'
+#csvFilePath='/courses/par3.csv'
+#jsonFilePath='/fixtures/student_2.json'
 
 path=str(pathlib.Path().absolute())
 try:
@@ -23,6 +23,9 @@ for i in data.keys():
         d={}
         d['model']='evaluation.Student'
         d['fields']=data[i]
+        d['fields']['matricula']=int(d['fields']['matricula'])
+        d['fields']['group']=int(d['fields']['group'])
+        d['fields']['paralelo']=int(d['fields']['paralelo'])
         data2.append(d)
 
 try:
