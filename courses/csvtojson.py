@@ -4,10 +4,10 @@ import pathlib
 
 data={}
 data2=[]
-csvFilePath='/courses/par2.csv'
-jsonFilePath='/fixtures/student.json'
 #csvFilePath='/courses/par3.csv'
-#jsonFilePath='/fixtures/student_2.json'
+#jsonFilePath='/fixtures/student_3.json'
+csvFilePath='/courses/par2.csv'
+jsonFilePath='/fixtures/student_2.json'
 
 path=str(pathlib.Path().absolute())
 try:

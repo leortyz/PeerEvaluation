@@ -1,0 +1,236 @@
+[
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201601416,
+            "nombre": "VERA GARCIA, PEDRO GABRIEL",
+            "group": 100,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201611910,
+            "nombre": "ALVAREZ DI LUCA NICOLE GABRIELA",
+            "group": 1,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201811189,
+            "nombre": "ARCE SIERRA MICHAEL XAVIER",
+            "group": 1,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201613502,
+            "nombre": "LOPEZ DAMIAN DENNYS EDUARDO",
+            "group": 1,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201810017,
+            "nombre": "TOMALA POZO JOSUE ALBERTO",
+            "group": 1,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201870029,
+            "nombre": "ZAMBRANO ZURITA LESSETTE CAROLINA",
+            "group": 1,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201500910,
+            "nombre": "GUAMAN PACALLA OSCAR DARWIN",
+            "group": 2,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201140477,
+            "nombre": "VIVAS AVILES JONATHAN ANDRES",
+            "group": 2,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201309983,
+            "nombre": "ALVARADO ARAUJO VICTOR OSWALDO",
+            "group": 3,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201601127,
+            "nombre": "ARIAS TIGSI ALBIN ISMAEL",
+            "group": 3,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201705175,
+            "nombre": "ESPINOZA MORENO SCARLET ANGELINA",
+            "group": 3,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201605672,
+            "nombre": "PORTILLA SALAZAR CHRISTIAN FABRICIO",
+            "group": 3,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201613031,
+            "nombre": "RIERA NARANJO GENESIS JULIANA",
+            "group": 3,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201409443,
+            "nombre": "YEPEZ NIETO HAROLD ARTURO",
+            "group": 3,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201503046,
+            "nombre": "SANTANA QUISPILLO JONATHAN FERNANDO",
+            "group": 3,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201403880,
+            "nombre": "ANGULO VILLACIS MISHELL EUGENIA",
+            "group": 5,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201705142,
+            "nombre": "CALDERON LOPEZ JHOSSIAS PAWHELL",
+            "group": 5,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201421437,
+            "nombre": "PALMA LOOR JUNIOR SANTIAGO",
+            "group": 5,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201707221,
+            "nombre": "SANCHEZ ALBARRACIN BRYAN MOISES",
+            "group": 5,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201508199,
+            "nombre": "TOMALA VERA LUIS ADRIAN",
+            "group": 5,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201116976,
+            "nombre": "RODR\u00cdGUEZ CASTA\u00d1EDA JORGE LUIS",
+            "group": 5,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201604345,
+            "nombre": "CAJAS CORREA ROGWI ALEXIS",
+            "group": 6,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201700382,
+            "nombre": "MANZANO MANZANO BRYAN ANDRES",
+            "group": 6,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201602927,
+            "nombre": "SOLIS CHANG ISAAC JAVIER",
+            "group": 6,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201515983,
+            "nombre": "VILLAMAR SALTOS LUIS ANDRES",
+            "group": 6,
+            "paralelo": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201608262,
+            "nombre": "ZAMBRANO VELEZ PABELCO GABRIEL",
+            "group": 6,
+            "paralelo": 3
+        }
+    }
+]

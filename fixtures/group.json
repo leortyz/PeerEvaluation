@@ -1,6 +1,13 @@
 [
   {
     "model": "evaluation.Group",
+    "pk": 100,
+    "fields": {
+      "nombre": "Sin Grupo"
+    }
+  },
+  {
+    "model": "evaluation.Group",
     "pk": 1,
     "fields": {
       "nombre": "Grupo 1"
@@ -46,6 +53,13 @@
     "pk": 7,
     "fields": {
       "nombre": "Grupo 7"
+    }
+  },
+  {
+    "model": "evaluation.Group",
+    "pk": 8,
+    "fields": {
+      "nombre": "Grupo 8"
     }
   }
 ]
